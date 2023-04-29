@@ -9,7 +9,6 @@ const CarRent = () => {
     const [firstname, setfirstname] = useState('');
     const [lastname, setlastname] = useState('');
     const [VehicleType, setVehicleType] = useState('');
-    // const [Vehiclesubtype, setVehiclesubtype] = useState([]);
     const [SelectestartDate, setselectedstartDate] = useState(null);
     const [SelectelastDate, setselectedlastDate] = useState(null);
 
@@ -90,16 +89,6 @@ const CarRent = () => {
                 />
                 4Wheeler
                 <br></br>
-                {/* {Vehiclesubtype.length > 0 && (
-                    <div>
-                        <p>Vehicle-Sub-Types</p>
-                        <ul>
-                            {Vehiclesubtype.map((subtype) => (
-                                <li key={subtype}>{subtype}</li>
-                            ))}
-                        </ul>
-                    </div>
-                )} */}
                 <label>SelecteDate:</label><br></br>
                 startdate:
                 <Datepicker
